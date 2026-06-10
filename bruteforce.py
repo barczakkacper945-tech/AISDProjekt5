@@ -1,3 +1,5 @@
+import itertools
+
 def knapsack_brute_force(C, items):
     best_value = 0
     best_combination = []

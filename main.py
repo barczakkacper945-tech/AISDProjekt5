@@ -4,7 +4,7 @@ import time
 from generate import generate_knapsack_data
 from read import read_knapsack_data
 from bruteforce import knapsack_brute_force
-from read import read_knapsack_data
+from dynamicprogramming import knapsack_dynamic_programming
 
 if __name__ == "__main__":
     file_name = "knapsack_data.txt"
